@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ñoño Fast Food</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+        <img src="Ñoño.png" alt="" width="200px" height="200px">
+        <h1>Ñoño Fast Food</h1>
+
+        
+    </header>
+
+    <section class="Menu">
+
+        <h2>Menu</h2>
+
+        <ul>
+            <li>Hamburguesa Jr................................1.5$</li>
+            <li>Hamburguesa Whopper Sencilla......3$</li>
+            <li>Hamburguesa Whopper Especial......4$</li>
+            <li>Hamburguesa Ñoño Burguer.............5$</li>
+        </ul>
+
+    </section>
+    <hr>
+
+    <section class="Ubicacion">
+        <h2>Ubicación</h2>
+
+        <h3>Sedes</h3>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Ubicación</th>
+                <th>Horario </th>
+            </tr>
+            <tr>
+                <td>Ñoño</td>
+                <td>Norte</td>
+                <td>6pm - 12am</td>
+            </tr>
+            <tr>
+                <td>Ñoño</td>
+                <td>Centro</td>
+                <td>6pm - 12am</td>
+            </tr>
+            <tr>
+                <td>Ñoño</td>
+                <td>Sur</td>
+                <td>6pm - 10pm</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <section class="Contacto">
+
+        <h2>Contacto</h2>
+
+        <h3> Haz tu Pedido Aqui</h3>
+
+        <form action="">
+            <p>De que puesto quieres ?</p>
+
+        <select>
+            <option value="Norte">Norte</option>
+            <option value="Centro">Centro</option>
+            <option value="Sur">Sur</option>
+        </select>
+
+        <p>De que quieres ?</p>
+        <input type="checkbox" id="hamburguesajr" name="hamburguesajr" value="Hamburguesajr">
+        <label for="hamburguesajr">Hamburguesa Jr</label>
+        <input type="number" placeholder="Cuantos?"><br>
+        <input type="checkbox" id="hamburguesaws" name="hamburguesaws" value="Hamburguesaws">
+        <label for="hamburguesaws">Hamburguesa Whopper Sencilla</label>
+        <input type="number" placeholder="Cuantos?"><br>
+        <input type="checkbox" id="hamburguesawe" name="hamburguesawe" value="Hamburguesawe">
+        <label for="hamburguesawe">Hamburguesa Whopper Especial</label>
+        <input type="number" placeholder="Cuantos?"><br>
+        <input type="checkbox" id="hamburguesanono" name="hamburguesanono" value="Hamburguesanono">
+        <label for="hamburguesanono">Hamburguesa Ñoño</label>
+        <input type="number" placeholder="Cuantos?"><br><br>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" placeholder="Como te llamas?"><br>
+
+        <label for="telefono">Telefono:</label>
+        <input type="text" id="telefono" placeholder="Telefono"><br>
+
+        <label for="direccion">Direccion:</label>
+        <input type="text" id="direccion" placeholder="Direccion"><br>
+
+        <br>
+
+        <input type="submit" value="Enviar Pedido" onclick="alert('Su pedido ha sido realizado con exito!');">
+        </form>
+
+    </section>
+</body>
+</html>
